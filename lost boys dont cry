@@ -1,0 +1,111 @@
+.lostboy {
+  position: relative;
+  margin: 25px auto;
+  width: 550px;
+  padding: 25px;
+  height: 520px;
+  background: #fdfdfd;
+  outline: 1px solid #333;
+  background: #f7f7f4;
+  color: #555;
+  font: 400 12px/175% roboto;
+  text-align: justify;
+  letter-spacing: 0.2px;
+  overflow: hidden;
+}
+.lostboy-bottom {
+  height: 20px;
+  width: 600px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top: solid 1px #333;
+  background: linear-gradient(-160deg, rgba(var(--customaccent), 1) 25%, #666);
+  background-size: 100% 200%;
+}
+.lostboy-left {
+  height: 550px;
+  width: 200px;
+  border-left: 1px solid #333;
+  background: rgba(var(--customaccent), 0.55);
+  position: relative;
+  overflow: hidden;
+  right: -390px;
+  top: -25px;
+}
+.lostboy-left div {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  bottom: -10px;
+  height: 550px;
+  width: 200px;
+  background-size: cover;
+  background-position: center;
+  filter: saturate(230%) contrast(115%) blur(1.8px);
+  mix-blend-mode: multiply;
+  opacity: 0.3;
+}
+.left-body-div {
+  position: absolute;
+  right: 110px;
+  top: 30px;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  background: rgba(var(--customaccent), 1);
+  border: 20px solid #f7f7f4;
+  border-radius: 100%;
+}
+.left-body-div img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+.lostboy-lyricwrap {
+  position: absolute;
+  top: 50px;
+  width: 300px;
+  height: 200px;
+}
+.lostboy-lyricwrap h1 {
+  font: 700 22px montserrat;
+  text-transform: uppercase;
+  color: rgba(var(--customaccent), 1);
+  line-height: 20px;
+  margin: 0px;
+  letter-spacing: -1px;
+}
+.lostboy-lyricwrap h2 {
+  max-width: fit-content;
+  padding: 2px 10px;
+  border: 1px solid #999;
+  background: #fdfdfd;
+  font: 10px roboto;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2.8px;
+  text-align: right;
+}
+.lostboy-body {
+  width: 300px;
+  height: 370px;
+  overflow: auto;
+  padding: 60px;
+  padding-top: 0;
+  padding-bottom: 0;
+  position: absolute;
+  top: 150px;
+  left: -10px;
+}
+
+.lostboy-body b, 
+.lostboy-body strong {
+  color: rgba(var(--customaccent),1);
+  font-family: playfair display;
+}
+.lostboy-body u {
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid rgba(var(--customaccent),1);
+}
