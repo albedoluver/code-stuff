@@ -1,3 +1,5 @@
+
+
 .lostboy {
   position: relative;
   margin: 25px auto;
@@ -108,4 +110,29 @@
   text-decoration: none;
   padding-bottom: 1px;
   border-bottom: 1px solid rgba(var(--customaccent),1);
+}
+.lostboy-body tagged {
+  max-width: fit-content;
+  padding: 5px 10px;
+  background: rgba(var(--customaccent),1);
+}
+.lostboy-body tagged a {
+  font-family: playfair display;
+  font-weight: 900;
+  color: #fdfdfd;
+  text-transform: uppercase;
+}
+.lostboy-body::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  background-color: transparent;
+}
+
+.lostboy-body::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.lostboy-body::-webkit-scrollbar,
+.lostboy-body::-webkit-scrollbar-thumb {
+  border: none;
 }
